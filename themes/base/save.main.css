@@ -1,0 +1,14 @@
+﻿.focusIn { border-color: #46FF00; }
+.focusOut { border-color: ActiveBorder; }
+.responseStatus { font-size: .9em; }
+.responseStatus span.animated-saving { padding-left: 20px; font-style: italic; background-image: url('../images/saving.gif'); background-repeat:no-repeat; background-position: 50% left; }
+.responseStatus span.saved { color: #888888; font-weight: bold; padding-left: 20px; background-image: url('../images/check-circle-grey.png');background-repeat:no-repeat;background-position: 50% left; }
+.responseStatus span.failed { color: #222; font-weight: bold; background-image: url('../images/error.png'); background-repeat:no-repeat; background-position: 50% left; }
+.responseStatus a.failed { display:inline-block; width:16px; text-decoration:none; color: #222; font-weight: bold; background-image: url('../images/error.png'); background-repeat:no-repeat; background-position: 50% left; }
+.responseStatus span.failed a { color: #FF0000; text-decoration: underline; }
+
+.responseStatus .failed a { color: #FF0000; font-weight: bold; text-decoration: underline; }
+textarea { font-family: Verdana, Tahoma, Sans-Serif; }
+span.saving { display: inline-block; padding-left: 20px; min-height: 16px; background: url('../images/saving.gif') no-repeat top left; }
+span.failed { display: inline-block; padding-left: 20px; min-height: 16px; background: url('../images/error.png') no-repeat top left; }
+img.failed { src: url('../images/error.png'); }
